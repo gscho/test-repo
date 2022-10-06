@@ -1,0 +1,8 @@
+name: "Test"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-job:
+    uses: gscho/reusable-workflow-test/.github/workflows/reusable-workflow-test.yml@main
