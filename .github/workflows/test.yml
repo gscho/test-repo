@@ -5,6 +5,9 @@ on:
     types: [opened]
   issue_comment:
     types: [created]
+    
+permissions:
+  id-token: write
 
 jobs:
   test-job:
